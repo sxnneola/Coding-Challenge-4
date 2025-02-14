@@ -1,0 +1,28 @@
+  /* Use these classes to style the .card component */
+
+  .card {}
+  .card__title {}
+  .card__excerpt {}
+  .card__image {}
+  .card__more {}
+  .card__more:hover {}
+  .card__more:active {}
+
+  @media screen and (min-width: 1024px) {
+    .card {}
+    .card__title {}
+    .card__excerpt {}
+    .card__image {}
+    .card__more {}
+    .card__more:hover {}
+    .card__more:active {}
+  }
+
+  /* You can leave everything below as is — we'll explain flexbox in a later lecture! */
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 8vw;
+  }
